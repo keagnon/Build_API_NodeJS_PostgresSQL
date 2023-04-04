@@ -6,6 +6,6 @@ Etapes pour la mise en place de ce projet :
 - npm install express
 - npm install nodemon
 - npm i pg
-- Installation postgreSQL si manquant : 
+- Installation postgreSQL si manquant :  
     -   sudo apt update
     -   sudo apt install postgresql
