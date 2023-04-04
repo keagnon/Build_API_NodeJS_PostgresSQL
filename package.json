@@ -4,7 +4,8 @@
   "description": "L'objectif de ce projet est de créer une API en utilisant nodejs et postgresql",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
   },
   "author": "grace",
   "license": "ISC",
