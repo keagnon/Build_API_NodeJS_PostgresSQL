@@ -1,0 +1,16 @@
+{
+  "name": "build_api_nodejs_postgressql",
+  "version": "1.0.0",
+  "description": "L'objectif de ce projet est de créer une API en utilisant nodejs et postgresql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "grace",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0"
+  }
+}
