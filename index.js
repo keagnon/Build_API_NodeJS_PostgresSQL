@@ -7,18 +7,18 @@ const port = process.env.PORT || 3000;
 const pool = new Pool({
   user: 'postgres',
   host: 'localhost',
-  database: '---',
-  password: '-----',
+  database: 'db',
+  password: 'db',
   port: 5432,
 });
 
 app.get('/top10', async (req, res) => {
-  const { rows } = await pool.query('SELECT * FROM ----- ORDER BY _id DSC LIMIT 10;');
+  const { rows } = await pool.query('SELECT * FROM db ORDER BY _id DSC LIMIT 10;');
   res.send(rows);
 });
 
 app.get('/allnonces', async (req, res) => {
-  const { rows } = await pool.query('SELECT * FROM ----;');
+  const { rows } = await pool.query('SELECT * FROM db;');
   res.send(rows);
 });
 
